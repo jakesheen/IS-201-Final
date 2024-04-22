@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+    background-color: whitesmoke;
+    h4 {color: bisque;}
+    /* p {color: blue;
+        background-color: tan;} */
+}
+li {
+   font-size: 14px;
+   font-style: italic;
+    font-weight: normal;
+    text-decoration: normal;
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+}
+a:visited {
+    color: blue;
+}
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+    font-size: larger;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+
+.homebg {
+    background-image: url('../images/Jake.jpg');
+    background-position: top right;
+}
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border: 1px solid gray;
+}
+.box2 {
+    padding: 5px;
+}
+.box3 {
+    margin: 50px;
+}

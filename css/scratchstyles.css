@@ -1,0 +1,34 @@
+body {
+    background-color: blanchedalmond;
+}
+.common {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+}
+.top {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.middle {
+    top: 100px;
+    left: 0px;
+    right: 0px;
+}
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter {
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+}
